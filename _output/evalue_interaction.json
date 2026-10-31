@@ -1,0 +1,21 @@
+{
+  "path_b": {
+    "OR": 1.5682,
+    "prevalence": 0.3674,
+    "RR_approx": 1.2973,
+    "E_value_RR": 1.918,
+    "E_value_rare_outcome": 2.512
+  },
+  "total_effect": {
+    "OR": 1.0038,
+    "E_value_RR": 1.052
+  },
+  "interaction": {
+    "n": 11314,
+    "OR": 0.9965812882728711,
+    "lo": 0.874805714719884,
+    "hi": 1.135308386106775,
+    "P": 0.9589257737394798
+  },
+  "double_exposed_n": 32
+}

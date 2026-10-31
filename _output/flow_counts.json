@@ -1,0 +1,19 @@
+{
+  "raw_respondents": 25586,
+  "excluded_prevalent_stroke": 486,
+  "after_stroke_exclusion": 25100,
+  "covariate_complete": 15496,
+  "excluded_missing_covariates": 9604,
+  "excluded_missing_outcome": 4182,
+  "analytic_sample": 11314,
+  "mediator_unascertainable": 217,
+  "mediator_missing_dropped_n": 11097,
+  "component_missing_union": 4067,
+  "component_missing_pct_of_analytic": 35.95,
+  "n_stroke_first_reported_2018": 624,
+  "n_stroke_early_r2r3": 172,
+  "n_stroke_any_incl2018": 796,
+  "component_missing_scope": "analytic sample (n=11,314); union over waist(r1mwaist), TG, HDL, self-reported hypertension, self-reported diabetes",
+  "mediator_unascertainable_note": "r2stroke and r3stroke both missing; counted as free of early stroke in primary",
+  "component_missing_note": "waist (1,433 missing) comes from H_CHARLS_D_Data.dta and is not a column in analysis_harmonized.csv; a recomputation from that CSV alone is wrong."
+}

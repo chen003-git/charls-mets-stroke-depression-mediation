@@ -1,0 +1,21 @@
+# CHARLS data — under a data-use agreement, never redistributed
+data/
+*.dta
+*.zip
+analysis_harmonized.csv
+analysis.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.bak*
+~$*
+
+# Generated figures (regenerate with make_figs_mets_v3.py)
+figures/*.png
+figures/*.pdf

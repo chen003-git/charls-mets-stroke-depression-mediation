@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "k_reclassified": 0,
+      "NIE": 0.0011530149943042023,
+      "NIE_lo": 0.0001938043516225632,
+      "NIE_hi": 0.003382501868518446,
+      "excludes_zero": true,
+      "n_boot": 80
+    },
+    {
+      "k_reclassified": 3,
+      "NIE": 0.0011568746923783513,
+      "NIE_lo": 0.00020550847812804418,
+      "NIE_hi": 0.0032008083010888213,
+      "excludes_zero": true,
+      "n_boot": 80
+    },
+    {
+      "k_reclassified": 12,
+      "NIE": 0.0012333601326467436,
+      "NIE_lo": 0.00016198297054463296,
+      "NIE_hi": 0.003226886246466655,
+      "excludes_zero": true,
+      "n_boot": 80
+    },
+    {
+      "k_reclassified": 30,
+      "NIE": 0.000666148583208459,
+      "NIE_lo": -3.811702067914312e-05,
+      "NIE_hi": 0.002618889411088956,
+      "excludes_zero": false,
+      "n_boot": 80
+    }
+  ],
+  "seed_reclassify": 7,
+  "seed_boot": 42,
+  "n_mediator": 172,
+  "note": "把 k 个中介事件从 1 改 0（随机、seed=7）后重跑整套分解；检验的是**数据层面**的中介错分敏感性，比只改 bootstrap 种子更有信息量。"
+}

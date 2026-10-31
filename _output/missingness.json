@@ -1,0 +1,12 @@
+{
+  "n_full_cohort": 25100,
+  "n_analytic": 11314,
+  "note": "全队列 = 排除基线卒中后的全样本（n=25,100）；分析样本 = 主分析样本（n=11,314）。正文 §3.1 的 27.3% / 27.2% / 12.7% 用 analytic 口径。",
+  "tg_missing_pct_full_cohort": 54.84,
+  "hdl_missing_pct_full_cohort": 54.82,
+  "waist_missing_pct_full_cohort": 46.55,
+  "tg_missing_pct_analytic": 27.27,
+  "hdl_missing_pct_analytic": 27.22,
+  "waist_missing_pct_analytic": 12.67,
+  "waist_missing_n_analytic": 1433
+}

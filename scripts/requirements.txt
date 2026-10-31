@@ -1,0 +1,14 @@
+pandas>=2.0
+numpy>=1.24
+statsmodels>=0.14          # run_mets_v2.py, run_any_stroke.py, run_negcontrol19.py
+scipy>=1.10                # make_table1_v2.py
+matplotlib>=3.7            # make_figs_mets_v3.py
+
+# 说明
+# ----
+# run_path_model.py / run_seed_v2.py / run_sensitivity_pack.py 只用 numpy + pandas
+# （逻辑回归与反事实中介由 numpy 自实现的 IRLS 完成），无需 statsmodels。
+# 这些脚本产出的 _output/*.json 与 statsmodels 版本在 1e-4 量级一致
+# （主分析 n=11,314 / MetS=1,293 / NIE≈0.0011）。
+#
+# 复现版本（作者环境）：Python 3.13.14 / pandas 3.0.5 / numpy 2.5.3 / statsmodels 0.15.0

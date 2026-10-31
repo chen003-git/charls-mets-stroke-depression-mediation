@@ -1,0 +1,106 @@
+{
+  "n_total": 11314,
+  "n_mets": 1293,
+  "n_non_mets": 10021,
+  "mets_pct": 11.43,
+  "rows": [
+    {
+      "characteristic": "Age, years (mean)",
+      "overall": 56.85,
+      "mets": 57.83,
+      "non_mets": 56.73,
+      "p": "1.77e-05"
+    },
+    {
+      "characteristic": "Female, %",
+      "overall": 54.63,
+      "mets": 60.71,
+      "non_mets": 53.85,
+      "p": "3.54e-06"
+    },
+    {
+      "characteristic": "BMI, kg/m² (mean)",
+      "overall": 24.2,
+      "mets": 26.94,
+      "non_mets": 23.82,
+      "p": "0.001"
+    },
+    {
+      "characteristic": "Education level, 1-3 (mean)",
+      "overall": 1.13,
+      "mets": 1.13,
+      "non_mets": 1.12,
+      "p": "0.344"
+    },
+    {
+      "characteristic": "Current smoker, %",
+      "overall": 37.71,
+      "mets": 32.33,
+      "non_mets": 38.41,
+      "p": "2.49e-05"
+    },
+    {
+      "characteristic": "Current drinker, %",
+      "overall": 38.24,
+      "mets": 35.11,
+      "non_mets": 38.64,
+      "p": "0.015"
+    },
+    {
+      "characteristic": "Baseline CES-D-10 (mean)",
+      "overall": 8.26,
+      "mets": 8.06,
+      "non_mets": 8.29,
+      "p": "0.212"
+    },
+    {
+      "characteristic": "Central obesity (waist ≥90/85), %",
+      "overall": 36.33,
+      "mets": 87.63,
+      "non_mets": 29.71,
+      "p": "0.00e+00"
+    },
+    {
+      "characteristic": "Elevated triglycerides (≥150 mg/dL), %",
+      "overall": 19.6,
+      "mets": 80.51,
+      "non_mets": 11.75,
+      "p": "0.00e+00"
+    },
+    {
+      "characteristic": "Low HDL-cholesterol (<40 mg/dL), %",
+      "overall": 17.64,
+      "mets": 74.79,
+      "non_mets": 10.27,
+      "p": "0.00e+00"
+    },
+    {
+      "characteristic": "Hypertension, %",
+      "overall": 23.42,
+      "mets": 65.61,
+      "non_mets": 17.96,
+      "p": "0.00e+00"
+    },
+    {
+      "characteristic": "Diabetes, %",
+      "overall": 5.32,
+      "mets": 24.28,
+      "non_mets": 2.87,
+      "p": "1.27e-225"
+    },
+    {
+      "characteristic": "Early incident stroke (2013/15), %",
+      "overall": 1.52,
+      "mets": 2.47,
+      "non_mets": 1.4,
+      "p": "0.004"
+    },
+    {
+      "characteristic": "Depression (CES-D ≥10, 2018), %",
+      "overall": 38.69,
+      "mets": 38.44,
+      "non_mets": 38.72,
+      "p": "0.869"
+    }
+  ]
+}

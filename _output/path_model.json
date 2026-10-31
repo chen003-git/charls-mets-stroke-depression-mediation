@@ -1,0 +1,35 @@
+{
+  "path_a_mets_to_stroke": {
+    "n": 11314,
+    "OR": 1.9134,
+    "lo": 1.2936,
+    "hi": 2.8303,
+    "P": 0.0012
+  },
+  "path_b_stroke_to_dep": {
+    "n": 11314,
+    "OR": 1.5682,
+    "lo": 1.1252,
+    "hi": 2.1857,
+    "P": 0.0079
+  },
+  "path_c_direct": {
+    "n": 11314,
+    "OR": 0.9983,
+    "lo": 0.8777,
+    "hi": 1.1354,
+    "P": 0.9792
+  },
+  "total_unmediated": {
+    "n": 11314,
+    "OR": 1.0038,
+    "lo": 0.8826,
+    "hi": 1.1416,
+    "P": 0.9537
+  },
+  "_sample": {
+    "n": 11314,
+    "spec": "mediator missing coded as negative; outcome and covariates complete",
+    "consistent_with": "run_mets_v2.py primary analysis"
+  }
+}
