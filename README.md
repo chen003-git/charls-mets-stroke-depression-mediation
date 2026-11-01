@@ -2,7 +2,7 @@
 
 Analysis code and aggregate results for the manuscript:
 
-> **Early incident stroke and depressive symptoms in CHARLS: a small indirect effect robust to mediator misclassification, and a 5.6-fold difference between mediator windows**
+> **Early incident stroke and depressive symptoms in CHARLS: a small indirect effect whose direction, but not magnitude, survives mediator misclassification, and a 5.6-fold difference between mediator definitions**
 > Hao Chen, Jie Li — Department of Pharmacy, Luohe Central Hospital, Henan, China
 
 Submitted to *Journal of Affective Disorders*.
@@ -14,7 +14,7 @@ Submitted to *Journal of Affective Disorders*.
 | Path | Contents |
 |---|---|
 | `scripts/` | All analysis scripts. `run_all.py` executes the full pipeline in order. |
-| `_output/` | 22 aggregate result files (18 JSON + 4 CSV) backing every reported estimate and all figures. |
+| `_output/` | 24 aggregate result files (20 JSON + 4 CSV) backing every reported estimate and all figures. |
 | `requirements.txt` | Python dependencies and the versions used for the reported results. |
 
 ## What is **not** in this repository
@@ -52,9 +52,36 @@ Each step runs in order and the pipeline exits non-zero if any step fails. The s
 5. `run_path_model.py` — path-specific models
 6. `run_seed_v2.py` — nine-seed bootstrap stability
 7. `run_sensitivity_pack.py` — definition, E-value and reverse-causation analyses
-8. `run_review_extras.py` — interaction, imputation and stratified analyses
-9. `make_table1_v2.py` — Table 1
-10. `make_figs_mets_v3.py` — Figures 1–3
+8. `run_review_extras.py` — interaction, imputation and stratified analyses; also the
+   one-directional mediator-event fragility analysis (`_output/misclass_fragility.json`)
+9. `cluster_bootstrap.py` — cluster bootstrap resampling communities (§2.5, §3.2)
+10. `mediator_misclass_bias.py` — probabilistic bias analysis over the full
+    sensitivity/specificity grid (§2.5, §3.4, Supplementary Table S4); writes
+    `_output/mediator_misclass_bias.json`
+11. `make_table1_v2.py` — Table 1
+12. `make_figs_mets_v3.py` — Figures 1–3
+
+### Two mediator-misclassification analyses, and why both are here
+
+`run_review_extras.py` flips *k* of the 172 mediator events from 1 to 0 at random.
+That analysis is one-directional — it can only remove events, so it says nothing
+about false-positive stroke reports — and it finds the indirect effect survives
+*k* ≤ 12 (7% of events) but not *k* = 30 (17%).
+
+`mediator_misclass_bias.py` varies the two operating characteristics of
+self-reported stroke (sensitivity, specificity), derives the true prevalence each
+pair implies, and reclassifies every participant, so events move in both
+directions. The two analyses are complementary and the manuscript reports both;
+their conclusions agree (the effect is directionally stable and magnitude-fragile).
+
+### Pointing the scripts at your CHARLS copy
+
+Every script reads from `data/`. If your CHARLS files live elsewhere, set
+`HL_DATA` and the bias script will use it instead:
+
+```
+HL_DATA=/path/to/charls python scripts/mediator_misclass_bias.py
+```
 
 `make_fig_s1.py` produces the supplementary flow figure and is run separately.
 

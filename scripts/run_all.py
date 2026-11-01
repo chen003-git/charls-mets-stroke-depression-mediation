@@ -33,6 +33,8 @@ STEPS = [
     ("种子稳健性 (9 种子 x 500)",        "run_seed_v2.py"),
     ("敏感性分析包 (§3.1后半 + §3.4)",   "run_sensitivity_pack.py"),
     ("审稿补充分析 (§3.2/§3.3)",         "run_review_extras.py"),
+    ("整群 bootstrap 敏感性 (§2.5/§3.2)", "cluster_bootstrap.py"),
+    ("中介错分偏倚分析 (§2.5/§3.4 + Table S4)", "mediator_misclass_bias.py"),
     ("Table 1",                         "make_table1_v2.py"),
     ("出图 (v4: 原生 >=2400 px + 自检)","make_figs_mets_v3.py"),
 ]
