@@ -5,6 +5,9 @@ data/
 analysis_harmonized.csv
 analysis.csv
 
+# Logs
+*.log
+
 # Python
 __pycache__/
 *.pyc

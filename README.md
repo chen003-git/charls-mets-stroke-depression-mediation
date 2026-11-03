@@ -14,7 +14,7 @@ Submitted to *Journal of Affective Disorders*.
 | Path | Contents |
 |---|---|
 | `scripts/` | All analysis scripts. `run_all.py` executes the full pipeline in order. |
-| `_output/` | 24 aggregate result files (20 JSON + 4 CSV) backing every reported estimate and all figures. |
+| `_output/` | 26 aggregate result files (22 JSON + 4 CSV) backing every reported estimate and all figures. |
 | `requirements.txt` | Python dependencies and the versions used for the reported results. |
 
 ## What is **not** in this repository
@@ -102,7 +102,7 @@ The regression coefficients agree to 3.3 × 10⁻¹⁵; the indirect effects dif
 - Metabolic syndrome (self-reported definition): 11.4% (n = 1,293)
 - Early incident stroke (2013/2015): 172 mediator events
 - NIE = 0.0012 (95% CI 0.0002–0.0028); TE = 0.0008 (95% CI −0.0241 to 0.0271)
-- Mediator-window ratio: 5.60 (0.0065 vs 0.0012)
+- Mediator-window ratio: 5.60 (95% CI 2.44–23.16; paired bootstrap, 200 replicates; `_output/window_ratio_paired.json`), reported alongside the difference between windows, 0.0053 (95% CI 0.0031–0.0082)
 
 ## Citation
 
