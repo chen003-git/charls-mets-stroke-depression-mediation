@@ -37,7 +37,31 @@ exactly.
 3. Place them under `data/` in the layout that `scripts/clean_harmonized.py`
    expects (see README).
 
-## Required attribution when you publish using CHARLS
+## Required attribution when you publish using CHARLS or Harmonized CHARLS
+
+### Harmonized CHARLS (Gateway to Global Aging Data)
+
+The Harmonized CHARLS Documentation (Version D, June 2021) asks all users to
+include a specific acknowledgement in written work. The manuscript using this
+repository carries it verbatim in its Acknowledgements section:
+
+> "This analysis uses data or information from the Harmonized CHARLS dataset
+> and Codebook, Version D as of June 2021 developed by the Gateway to Global
+> Aging Data. The development of the Harmonized CHARLS was funded by the
+> National Institute on Aging (R01 AG030153, RC2 AG036619, R03 AG043052).
+> For more information, please refer to https://g2aging.org/."
+
+The Gateway also asks that users **notify their team** of any written analysis
+by e-mail to <papers@g2aging.org>. Anyone reusing this code with their own
+Harmonized CHARLS extract should do the same for their own work.
+
+Cite the dataset as:
+
+- Phillips D, Green H, Petrosyan S, Shao K, Wilkens J, Lee J (2021).
+  *Harmonized CHARLS Documentation, Version D (2011-2018)*. Gateway to Global
+  Aging Data, University of Southern California. <https://g2aging.org/>
+
+### CHARLS (Peking University)
 
 The CHARLS agreement requires that CHARLS be acknowledged and cited in any
 publication that uses the data. We cite:
