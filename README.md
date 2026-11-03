@@ -2,7 +2,7 @@
 
 Analysis code and aggregate results for the manuscript:
 
-> **Early incident stroke and depressive symptoms in CHARLS: a small indirect effect whose direction, but not magnitude, survives mediator misclassification, and a 5.6-fold difference between mediator definitions**
+> **Mediator window choice changes a stroke-to-depression indirect effect 5.6-fold in CHARLS; misclassification leaves direction but not magnitude intact**
 > Hao Chen, Jie Li — Department of Pharmacy, Luohe Central Hospital, Henan, China
 
 Submitted to *Journal of Affective Disorders*.
@@ -15,7 +15,7 @@ Submitted to *Journal of Affective Disorders*.
 |---|---|
 | `scripts/` | All analysis scripts. `run_all.py` executes the full pipeline in order. |
 | `_output/` | 26 aggregate result files (22 JSON + 4 CSV) backing every reported estimate and all figures. |
-| `requirements.txt` | Python dependencies and the versions used for the reported results. |
+| `scripts/requirements.txt` | Python dependencies and the versions used for the reported results (`scripts/requirements.lock.txt` pins the exact versions). |
 
 ## What is **not** in this repository
 
