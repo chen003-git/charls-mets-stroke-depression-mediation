@@ -31,10 +31,10 @@ The derived participant-level file (`analysis_harmonized.csv`, n = 11,314) is pr
 
 ## Environment
 
-Python 3.13 with `pandas`, `numpy`, `statsmodels`, `scipy`, `matplotlib` (see `requirements.txt`; reported results were produced with Python 3.13.14 / pandas 3.0.5 / numpy 2.5.3 / statsmodels 0.15.0).
+Python 3.13 with `pandas`, `numpy`, `statsmodels`, `scipy`, `matplotlib` (see `scripts/requirements.txt`; reported results were produced with Python 3.13.14 / pandas 3.0.5 / numpy 2.5.3 / statsmodels 0.15.0).
 
 ```
-pip install -r requirements.txt
+pip install -r scripts/requirements.txt
 ```
 
 ## Running the pipeline
