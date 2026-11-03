@@ -37,6 +37,7 @@ STEPS = [
     ("中介错分偏倚分析 (§2.5/§3.4 + Table S4)", "mediator_misclass_bias.py"),
     ("Table 1",                         "make_table1_v2.py"),
     ("出图 (v4: 原生 >=2400 px + 自检)","make_figs_mets_v3.py"),
+    ("补充图 S1 参与者流程 (flow_counts.json -> 矢量)","make_fig_s1.py"),
 ]
 
 REQUIRED_IMPORTS = {

@@ -104,6 +104,18 @@ The regression coefficients agree to 3.3 × 10⁻¹⁵; the indirect effects dif
 - NIE = 0.0012 (95% CI 0.0002–0.0028); TE = 0.0008 (95% CI −0.0241 to 0.0271)
 - Mediator-window ratio: 5.60 (95% CI 2.44–23.16; paired bootstrap, 200 replicates; `_output/window_ratio_paired.json`), reported alongside the difference between windows, 0.0053 (95% CI 0.0031–0.0082)
 
+## Licensing
+
+| Component | License |
+|---|---|
+| `scripts/` — analysis code | **MIT**, see `LICENSE` |
+| `_output/`, regenerated figures — aggregate results | **CC BY 4.0**, see `LICENSE-outputs.md` |
+| CHARLS data (not in this repository) | **Not licensed here.** Obtain it from Peking University under their data-use agreement. |
+
+`NOTICE.md` records the data provenance, the redistribution constraint in the
+CHARLS agreement, the citation requirements, and the reproducibility status
+of this repository.
+
 ## Citation
 
 If you use this code, please cite the manuscript above once it is published.

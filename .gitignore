@@ -22,3 +22,7 @@ Thumbs.db
 # Generated figures (regenerate with make_figs_mets_v3.py)
 figures/*.png
 figures/*.pdf
+
+# Generated supplementary figures (regenerate with make_fig_s1.py)
+Supplementary/*.png
+Supplementary/*.pdf
